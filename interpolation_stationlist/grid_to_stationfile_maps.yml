@@ -25,4 +25,4 @@ GRIDMAP: &gridmap
     STATIONS: "./AST_gridstations/interpolation_stationlist/supporting_dataABv20a_stations_V1.0.csv"
 
 DESCRIPTION: &description
-   DESCRIBE: 'A master configuration file of interpolation_stationlist grid mapping used by several application codes. Maps grid name to a specific station list. No provided land/water control points'
+   DESCRIBE: 'A master configuration file of interpolation_stationlist grid mapping used by several application codes. Maps grid name to a specific station list. land/water control points available'
