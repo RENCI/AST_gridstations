@@ -1,0 +1,4 @@
+The "interpolation_stationlist" data are intended for use by pipelines that perform interpolations such as ADDA. 
+These lists may be shorter than those found in the "full_stationlist" and may, conceivably, be slightly different lists.
+Conversely, some lists may be the same as its counterpart in the "interpolation_stationlist" data set.
+The HSOFS and EC95D grids currently have land and water control nodes included. The remaining grids are TBD.

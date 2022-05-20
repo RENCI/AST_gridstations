@@ -1,0 +1,5 @@
+The "full_stationlist" data are not intended for use by pipelines that perform interpolations such as ADDA. These are longer lists of 
+stations that are intended to capture wide geographic areas for comprehensive visualization pipelines. For example, the HSOFS grid (CERA_NOAA_HSOFS_stations) 
+includes stations from the Caribbean Sea to benefit broader overall situational awareness in the APSVIZ2 displays.
+
+As such, for the "full_stationlist", no land or water control node files are present for emphasis  

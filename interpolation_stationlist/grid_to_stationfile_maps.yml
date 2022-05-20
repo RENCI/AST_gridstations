@@ -1,0 +1,28 @@
+GRIDMAP: &gridmap
+ HSOFS:
+    STATIONS: "./AST_gridstations/interpolation_stationlist/supporting_data/CERA_NOAA_HSOFS_stations_V2.csv"
+    LANDCONTROL:  "./AST_gridstations/interpolation_stationlist/supporting_data/hsofs_land_control_list.dat"
+    WATERCONTROL: "./AST_gridstations/interpolation_stationlist/supporting_data/hsofs_water_control_list.dat"
+ EC95D:
+    STATIONS: "./AST_gridstations/interpolation_stationlist/supporting_datac95d_stations.V1.csv" 
+    LANDCONTROL:  "./AST_gridstations/interpolation_stationlist/supporting_data/ec95d_land_control_list.dat"
+    WATERCONTROL: "./AST_gridstations/interpolation_stationlist/supporting_data/ec95d_water_control_list.dat"
+ REGION3:
+    STATIONS: "./AST_gridstations/interpolation_stationlist/supporting_dataegion3_Stations_V1.csv"
+ NC_INUNDATION_V9.99_W_RIVERS: 
+    STATIONS: "./AST_gridstations/interpolation_stationlist/supporting_dataCV99_Stations_V1.csv"
+ NC_INUNDATION_V9.99D: 
+    STATIONS: "./AST_gridstations/interpolation_stationlist/supporting_dataCV99_Stations_V1.csv"
+ LA_V20A-WITHUPPERATCH_CHK: 
+    STATIONS: "./AST_gridstations/interpolation_stationlist/supporting_dataA_v20a-WithUpperAtch_chk_Stations_V1.csv"
+ URIV18: 
+    STATIONS: "./AST_gridstations/interpolation_stationlist/supporting_datariv18_stations_V1.csv"
+ URIV18_CL: 
+    STATIONS: "./AST_gridstations/interpolation_stationlist/supporting_datariv18_stations_V1.csv"
+ NCSC_SAB_V1.22:
+    STATIONS: "./AST_gridstations/interpolation_stationlist/supporting_dataCSC122_stations_V1.0.csv"
+ SABV20A: 
+    STATIONS: "./AST_gridstations/interpolation_stationlist/supporting_dataABv20a_stations_V1.0.csv"
+
+DESCRIPTION: &description
+   DESCRIBE: 'A master configuration file of interpolation_stationlist grid mapping used by several application codes. Maps grid name to a specific station list. No provided land/water control points'
