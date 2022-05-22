@@ -1,14 +1,20 @@
 GRIDMAP: &gridmap
  HSOFS:
-    STATIONS: "./AST_gridstations/interpolation_stationlist/supporting_data/CERA_NOAA_HSOFS_stations_V2.csv"
-    LANDCONTROL:  "./AST_gridstations/interpolation_stationlist/supporting_data/hsofs_land_control_list.dat"
-    WATERCONTROL: "./AST_gridstations/interpolation_stationlist/supporting_data/hsofs_water_control_list.dat"
+    NOAA_STATIONS: "./AST_gridstations/interpolation_stationlist/supporting_data/CERA_NOAA_HSOFS_stations_V2.csv"
+    CONTRAILS_RIVERS: "./AST_gridstations/interpolation_stationlist/supporting_data/contrails_stations_rivers.csv"
+    CONTRAILS_COASTAL: "./AST_gridstations/interpolation_stationlist/supporting_data/contrails_stations_coastal.csv"
+    LANDCONTROL: "./AST_gridstations/interpolation_stationlist/supporting_data/land_control_list.dat"
+    WATERCONTROL: "./AST_gridstations/interpolation_stationlist/supporting_data/water_control_list.dat"
+    NDBC_BUOYS: "./AST_gridstations/interpolation_stationlist/supporting_data/ndbc_buoys.csv"
  EC95D:
-    STATIONS: "./AST_gridstations/interpolation_stationlist/supporting_datac95d_stations.V1.csv" 
-    LANDCONTROL:  "./AST_gridstations/interpolation_stationlist/supporting_data/ec95d_land_control_list.dat"
-    WATERCONTROL: "./AST_gridstations/interpolation_stationlist/supporting_data/ec95d_water_control_list.dat"
+    NOAA_STATIONS: "./AST_gridstations/interpolation_stationlist/supporting_data/ec95d_stations.V1.csv"
+    LANDCONTROL: "./AST_gridstations/interpolation_stationlist/supporting_data/land_control_list.dat"
+    WATERCONTROL: "./AST_gridstations/interpolation_stationlist/supporting_data/water_control_list.dat"
+    CONTRAILS_RIVERS: "./AST_gridstations/interpolation_stationlist/supporting_data/contrails_stations_rivers.csv"
+    CONTRAILS_COASTAL: "./AST_gridstations/interpolation_stationlist/supporting_data/contrails_stations_coastal.csv"
+    NDBC_BUOYS: "./AST_gridstations/interpolation_stationlist/supporting_data/ndbc_buoys.csv"
  REGION3:
-    STATIONS: "./AST_gridstations/interpolation_stationlist/supporting_data/region3_Stations_V1.csv"
+    STATIONS: "./AST_gridstations/interpolation_stationlist/supporting_data/Region3_Stations_V2.csv"
  NC_INUNDATION_V9.99_W_RIVERS: 
     STATIONS: "./AST_gridstations/interpolation_stationlist/supporting_data/NCV99_Stations_V1.csv"
  NC_INUNDATION_V9.99D: 
@@ -19,10 +25,14 @@ GRIDMAP: &gridmap
     STATIONS: "./AST_gridstations/interpolation_stationlist/supporting_data/uriv18_stations_V1.csv"
  URIV18_CL: 
     STATIONS: "./AST_gridstations/interpolation_stationlist/supporting_data/uriv18_stations_V1.csv"
+ NCSC_SAB_V1.15: 
+    STATIONS: "./AST_gridstations/interpolation_stationlist/supporting_data/NCSC115_stations_V1.0.csv"
+ NCSC_SAB_V1.20:
+    STATIONS: "./AST_gridstations/interpolation_stationlist/supporting_data/NCSC120_stations_V1.0.csv"
  NCSC_SAB_V1.23:
     STATIONS: "./AST_gridstations/interpolation_stationlist/supporting_data/NCSC123_stations_V1.0.csv"
  SABV20A: 
     STATIONS: "./AST_gridstations/interpolation_stationlist/supporting_data/SABv20a_stations_V1.0.csv"
 
 DESCRIPTION: &description
-   DESCRIBE: 'A master configuration file of interpolation_stationlist grid mapping used by several application codes. Maps grid name to a specific station list. land/water control points available'
+   DESCRIBE: 'A configuration file used by the several application codes. Maps grid name to a specific station list and (opt) land/water control points'
