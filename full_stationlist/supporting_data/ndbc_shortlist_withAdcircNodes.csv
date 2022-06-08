@@ -1,0 +1,5 @@
+serial_nr,stationid,Lon,Lat,Node,location,state
+# Short list for SWAN reanalysis comparisons 
+1,44014,-74.842,36.609,1625632,VIRGINIA BEACH 64 NM East of Virginia Beach,VA
+2,44008,-69.250,40.496,1520876,NANTUCKET 54 NM Southeast of Nantucket,
+3,42408,-87.000,25.200,701429,EAST GULF of MEXICO - 225NM WNW of Loggerhead Key,FL
