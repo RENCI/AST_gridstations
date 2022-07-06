@@ -8,7 +8,7 @@ GRIDMAP: &gridmap
     NOAA_STATIONS: "./AST_gridstations/full_stationlist/supporting_data/ec95d_stations.V1.csv"
     CONTRAILS_RIVERS: "./AST_gridstations/full_stationlist/supporting_data/contrails_stations_rivers.csv"
     CONTRAILS_COASTAL: "./AST_gridstations/full_stationlist/supporting_data/contrails_stations_coastal.csv"
-    NDBC_BUOYS: "./AST_gridstations/full_stationlist/supporting_data/ec95d_ndbc_buoys.csv "
+    NDBC_BUOYS: "./AST_gridstations/full_stationlist/supporting_data/ec95d_ndbc_buoys.csv"
  REGION3:
     NOAA_STATIONS: "./AST_gridstations/full_stationlist/supporting_data/Region3_Stations_V2.csv"
  NC_INUNDATION_V9.99_W_RIVERS: 
