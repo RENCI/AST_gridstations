@@ -31,7 +31,7 @@ GRIDMAP: &gridmap
     NOAA_STATIONS: "./AST_gridstations/full_stationlist/supporting_data/NCSC120_stations_V1.0.csv"
  NCSC_SAB_V1.23:
     NOAA_STATIONS: "./AST_gridstations/full_stationlist/supporting_data/NCSC123_stations_V1.0.csv"
-    #CONTRAILS_RIVERS: "./AST_gridstations/full_stationlist/supporting_data/contrails_stations_rivers.csv"
+    CONTRAILS_RIVERS: "./AST_gridstations/full_stationlist/supporting_data/contrails_stations_rivers.csv"
     #CONTRAILS_COASTAL: "./AST_gridstations/full_stationlist/supporting_data/contrails_stations_coastal.csv"
     NDBC_BUOYS: "./AST_gridstations/full_stationlist/supporting_data/NCSC123_ndbc_buoys.csv" 
  SABV20A: 
