@@ -1,0 +1,3 @@
+The "harvester_stations" data are simply the current list of NOAA,NDBC,CONTRAILS station ids that (can) be used by the run_harvester
+fetching process. The run_hervester will read the sources_map.yaml file and attempt to process every source/product that is listed. Individual
+files with unique nomenclature will be created. These are resulting files are then expected to be ingested by the Harvester DB system
