@@ -1,8 +1,8 @@
 GRIDMAP: &gridmap
  HSOFS:
     NOAA_STATIONS: "./AST_gridstations/full_stationlist/supporting_data/CERA_NOAA_HSOFS_stations_V3.1.csv"
-    #CONTRAILS_RIVERS: "./AST_gridstations/full_stationlist/supporting_data/contrails_stations_rivers.csv"
-    #CONTRAILS_COASTAL: "./AST_gridstations/full_stationlist/supporting_data/contrails_stations_coastal.csv"
+    CONTRAILS_RIVERS: "./AST_gridstations/full_stationlist/supporting_data/contrails_stations_rivers.csv"
+    CONTRAILS_COASTAL: "./AST_gridstations/full_stationlist/supporting_data/contrails_stations_coastal.csv"
     NDBC_BUOYS: "./AST_gridstations/full_stationlist/supporting_data/HSOFS_ndbc_buoys.csv"
  EC95D:
     NOAA_STATIONS: "./AST_gridstations/full_stationlist/supporting_data/ec95d_stations.V1.csv"
