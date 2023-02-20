@@ -8,9 +8,10 @@ SOURCEMAP: &sourcemap
           WSPD: "wind_speed"
 
   CONTRAILSRIVER:
-      STATION_FILE: "./AST_gridstations/harvester_stations/supporting_data/contrails_stations_rivers.csv"
+      STATION_FILE: "./AST_gridstations/harvester_stations/supporting_data/contrails_stations_rivers_largelist.csv"
       SOURCES:
           WATR: "river_water_level"
+          FVOL: "river_flow_volume"
           PRES: "air_pressure"
 
   CONTRAILSCOASTAL:
