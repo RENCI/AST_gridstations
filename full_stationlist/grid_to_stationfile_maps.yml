@@ -15,6 +15,8 @@ GRIDMAP: &gridmap
     NOAA_STATIONS: "./AST_gridstations/full_stationlist/supporting_data/NCV99_Stations_V1.csv"
  NC_INUNDATION_V9.99D: 
     NOAA_STATIONS: "./AST_gridstations/full_stationlist/supporting_data/NCV99_Stations_V1.csv"
+ CPRA_2023_V18A_CHK:
+    NOAA_STATIONS: "./AST_gridstations/full_stationlist/supporting_data/cpra_2023_v18a_chk.csv" 
  LA_V20A-WITHUPPERATCH_CHK: 
     NOAA_STATIONS: "./AST_gridstations/full_stationlist/supporting_data/LA_v20a-WithUpperAtch_chk_Stations_V1.csv"
  URIV18: 
