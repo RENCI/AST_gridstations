@@ -15,6 +15,8 @@ GRIDMAP: &gridmap
     NDBC_BUOYS: "./AST_gridstations/interpolation_stationlist/supporting_data/ndbc_buoys.csv"
  REGION3:
     NOAA_STATIONS: "./AST_gridstations/interpolation_stationlist/supporting_data/Region3_Stations_V2.csv"
+    LANDCONTROL: "./AST_gridstations/interpolation_stationlist/supporting_data/region3_land_control_list.dat"
+    WATERCONTROL: "./AST_gridstations/interpolation_stationlist/supporting_data/region3_water_control_list.dat"
  NC_INUNDATION_V9.99_W_RIVERS: 
     NOAA_STATIONS: "./AST_gridstations/interpolation_stationlist/supporting_data/NCV99_Stations_V1.csv"
  NC_INUNDATION_V9.99D: 
