@@ -21,6 +21,8 @@ GRIDMAP: &gridmap
     NDBC_BUOYS: "./AST_gridstations/full_stationlist/supporting_data/ndbc_buoys.csv"
  CPRA_2023_V18A:
     NOAA_STATIONS: "./AST_gridstations/full_stationlist/supporting_data/cpra_2023_v18a_chk.csv" 
+    CONTRAILS_RIVERS: "./AST_gridstations/full_stationlist/supporting_data/contrails_stations_rivers.csv"
+    CONTRAILS_COASTAL: "./AST_gridstations/full_stationlist/supporting_data/contrails_stations_coastal.csv"
  CPRA_2023_V18A_CHK:
     NOAA_STATIONS: "./AST_gridstations/full_stationlist/supporting_data/cpra_2023_v18a_chk.csv" 
  LA_V20A-WITHUPPERATCH_CHK: 
