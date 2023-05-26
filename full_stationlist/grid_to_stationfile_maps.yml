@@ -1,8 +1,8 @@
 GRIDMAP: &gridmap
  HSOFS:
     NOAA_STATIONS: "./AST_gridstations/full_stationlist/supporting_data/CERA_NOAA_HSOFS_stations_V3.1.csv"
-    #CONTRAILS_RIVERS: "./AST_gridstations/full_stationlist/supporting_data/contrails_stations_rivers.csv"
-    #CONTRAILS_COASTAL: "./AST_gridstations/full_stationlist/supporting_data/contrails_stations_coastal.csv"
+    CONTRAILS_RIVERS: "./AST_gridstations/full_stationlist/supporting_data/contrails_stations_rivers.csv"
+    CONTRAILS_COASTAL: "./AST_gridstations/full_stationlist/supporting_data/contrails_stations_coastal.csv"
     NDBC_BUOYS: "./AST_gridstations/full_stationlist/supporting_data/HSOFS_ndbc_buoys.csv"
  EC95D:
     NOAA_STATIONS: "./AST_gridstations/full_stationlist/supporting_data/ec95d_stations.V1.csv"
@@ -21,8 +21,6 @@ GRIDMAP: &gridmap
     NDBC_BUOYS: "./AST_gridstations/full_stationlist/supporting_data/ndbc_buoys.csv"
  CPRA_2023_V18A:
     NOAA_STATIONS: "./AST_gridstations/full_stationlist/supporting_data/cpra_2023_v18a_chk.csv" 
-    CONTRAILS_RIVERS: "./AST_gridstations/full_stationlist/supporting_data/contrails_stations_rivers.csv"
-    CONTRAILS_COASTAL: "./AST_gridstations/full_stationlist/supporting_data/contrails_stations_coastal.csv"
  CPRA_2023_V18A_CHK:
     NOAA_STATIONS: "./AST_gridstations/full_stationlist/supporting_data/cpra_2023_v18a_chk.csv" 
  LA_V20A-WITHUPPERATCH_CHK: 
@@ -37,13 +35,13 @@ GRIDMAP: &gridmap
     NOAA_STATIONS: "./AST_gridstations/full_stationlist/supporting_data/NCSC120_stations_V1.0.csv"
  NCSC_SAB_V1.23:
     NOAA_STATIONS: "./AST_gridstations/full_stationlist/supporting_data/NCSC123_stations_V2.0.csv"
-    #CONTRAILS_RIVERS: "./AST_gridstations/full_stationlist/supporting_data/contrails_stations_rivers.csv"
-    #CONTRAILS_COASTAL: "./AST_gridstations/full_stationlist/supporting_data/contrails_stations_coastal.csv"
+    CONTRAILS_RIVERS: "./AST_gridstations/full_stationlist/supporting_data/contrails_stations_rivers.csv"
+    CONTRAILS_COASTAL: "./AST_gridstations/full_stationlist/supporting_data/contrails_stations_coastal.csv"
     NDBC_BUOYS: "./AST_gridstations/full_stationlist/supporting_data/NCSC123_ndbc_buoys.csv" 
  NCSC123:
     NOAA_STATIONS: "./AST_gridstations/full_stationlist/supporting_data/NCSC123_stations_V2.0.csv"
-    #CONTRAILS_RIVERS: "./AST_gridstations/full_stationlist/supporting_data/contrails_stations_rivers.csv"
-    #CONTRAILS_COASTAL: "./AST_gridstations/full_stationlist/supporting_data/contrails_stations_coastal.csv"
+    CONTRAILS_RIVERS: "./AST_gridstations/full_stationlist/supporting_data/contrails_stations_rivers.csv"
+    CONTRAILS_COASTAL: "./AST_gridstations/full_stationlist/supporting_data/contrails_stations_coastal.csv"
     NDBC_BUOYS: "./AST_gridstations/full_stationlist/supporting_data/NCSC123_ndbc_buoys.csv" 
  SABV20A: 
     NOAA_STATIONS: "./AST_gridstations/full_stationlist/supporting_data/SABv20a_stations_V1.0.csv"
