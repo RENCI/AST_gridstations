@@ -1,4 +1,5 @@
-,STATION,LAT,LON,NAME
+serial_nr,stationid,Lon,Lat,Name
+# Contrails COASTAL data with hand curated APS Node assignments
 0,30054,36.0607100,-75.6999410,Albemarle Sound at Moor Shore Rd. at Kitty Hawk
 1,EMWN7,36.2985220,-76.2185610,Pasquotank R. at Elizabeth City Mariners' Wharf Park
 2,HBKN7,35.2450750,-76.5912083,Jones Bay at Hobucken
