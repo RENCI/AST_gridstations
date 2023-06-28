@@ -1,5 +1,5 @@
-serial_nr,stationid,Lon,Lat,Name
-#Contrails RIVER data with hand curated APS Node assignments
+serial_nr,stationid,Lat,Lon,Name
+#Contrails RIVER stations
 0,WNRN7,35.9939028,-76.9426028,Cashie R in Windsor at S. King St
 1,30032,35.0583840,-78.8845000,Cross Creek at Hillsboro St. in Fayetteville
 2,STON7,35.9688000,-77.8499640,Stony Cr. at Winstead Ave. Rocky Mount
