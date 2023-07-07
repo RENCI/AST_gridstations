@@ -7,18 +7,18 @@ SOURCEMAP: &sourcemap
           PRES: "air_pressure"
           WSPD: "wind_speed"
 
-  #CONTRAILSRIVER:
-  #    STATION_FILE: "./AST_gridstations/harvester_stations/supporting_data/contrails_stations_rivers.csv"
-  #    SOURCES:
-  #        WATR: "river_water_level"
-  #        #FVOL: "river_flow_volume"
-  #        PRES: "air_pressure"
+  CONTRAILSRIVER:
+      STATION_FILE: "./AST_gridstations/harvester_stations/supporting_data/contrails_stations_rivers.csv"
+      SOURCES:
+          WATR: "river_water_level"
+          #FVOL: "river_flow_volume"
+          PRES: "air_pressure"
 
-  #CONTRAILSCOASTAL:
-  #    STATION_FILE: "./AST_gridstations/harvester_stations/supporting_data/contrails_stations_coastal.csv"
-  #    SOURCES:
-  #        WATR: "coastal_water_level"
-  #        PRES: "air_pressure"
+  CONTRAILSCOASTAL:
+      STATION_FILE: "./AST_gridstations/harvester_stations/supporting_data/contrails_stations_coastal.csv"
+      SOURCES:
+          WATR: "coastal_water_level"
+          PRES: "air_pressure"
 
   NDBC:
       STATION_FILE: "./AST_gridstations/harvester_stations/supporting_data/ndbc_buoys.csv"
