@@ -1,6 +1,6 @@
 SOURCEMAP: &sourcemap
   NOAA_STATIONS: 
-      #STATION_FILE: "./AST_gridstations/harvester_stations/supporting_data/noaa_stations.csv"
+      STATION_FILE: "./AST_gridstations/harvester_stations/supporting_data/noaa_stations.csv"
       VARIABLE: "zeta"
       SOURCES:
           WATR: "water_level"
@@ -9,7 +9,7 @@ SOURCEMAP: &sourcemap
           WSPD: "wind_speed"
 
   CONTRAILS_RIVERS:
-      #STATION_FILE: "./AST_gridstations/harvester_stations/supporting_data/contrails_stations_rivers.csv"
+      STATION_FILE: "./AST_gridstations/harvester_stations/supporting_data/contrails_stations_rivers.csv"
       VARIABLE: "zeta"
       SOURCES:
           WATR: "river_water_level"
@@ -17,14 +17,14 @@ SOURCEMAP: &sourcemap
           PRES: "air_pressure"
 
   CONTRAILS_COASTAL:
-      #STATION_FILE: "./AST_gridstations/harvester_stations/supporting_data/contrails_stations_coastal.csv"
+      STATION_FILE: "./AST_gridstations/harvester_stations/supporting_data/contrails_stations_coastal.csv"
       VARIABLE: "zeta"
       SOURCES:
           WATR: "coastal_water_level"
           PRES: "air_pressure"
 
   NDBC_BUOYS:
-      #STATION_FILE: "./AST_gridstations/harvester_stations/supporting_data/ndbc_buoys.csv"
+:x
       VARIABLE: "swan_HS"
       SOURCES:
           WATR: "wave_height"
