@@ -23,6 +23,8 @@ GRIDMAP: &gridmap
     NOAA_STATIONS: "./AST_gridstations/full_stationlist/supporting_data/cpra_2023_v18a_chk.csv" 
  CPRA_2023_V18A_CHK:
     NOAA_STATIONS: "./AST_gridstations/full_stationlist/supporting_data/cpra_2023_v18a_chk.csv" 
+ CPRA_2023_V19A:
+    NOAA_STATIONS: "./AST_gridstations/full_stationlist/supporting_data/cpra_2023_v19a_chk.csv" 
  CPRA_2023_V19A_CHK:
     NOAA_STATIONS: "./AST_gridstations/full_stationlist/supporting_data/cpra_2023_v19a_chk.csv" 
  LA_V20A-WITHUPPERATCH_CHK: 
