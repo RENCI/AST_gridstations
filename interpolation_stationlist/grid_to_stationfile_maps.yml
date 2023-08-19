@@ -5,11 +5,13 @@ GRIDMAP: &gridmap
     CONTRAILS_COASTAL: "./AST_gridstations/interpolation_stationlist/supporting_data/contrails_stations_coastal.csv"
     LANDCONTROL: "./AST_gridstations/interpolation_stationlist/supporting_data/hsofs_land_control_list.dat"
     WATERCONTROL: "./AST_gridstations/interpolation_stationlist/supporting_data/hsofs_water_control_list.dat"
+    SECONDARY_WATERCONTROL: "./AST_gridstations/interpolation_stationlist/supporting_data/hsofs_water_control_list_PR.dat"
     NDBC_BUOYS: "./AST_gridstations/interpolation_stationlist/supporting_data/ndbc_buoys.csv"
  EC95D:
     NOAA_STATIONS: "./AST_gridstations/interpolation_stationlist/supporting_data/ec95d_stations.V1.csv"
     LANDCONTROL: "./AST_gridstations/interpolation_stationlist/supporting_data/ec95d_land_control_list.dat"
     WATERCONTROL: "./AST_gridstations/interpolation_stationlist/supporting_data/ec95d_water_control_list.dat"
+    SECONDARY_WATERCONTROL: "./AST_gridstations/interpolation_stationlist/supporting_data/hsofs_water_control_list_PR.dat"
     CONTRAILS_RIVERS: "./AST_gridstations/interpolation_stationlist/supporting_data/contrails_stations_rivers.csv"
     CONTRAILS_COASTAL: "./AST_gridstations/interpolation_stationlist/supporting_data/contrails_stations_coastal.csv"
     NDBC_BUOYS: "./AST_gridstations/interpolation_stationlist/supporting_data/ndbc_buoys.csv"
