@@ -1,19 +1,20 @@
-serial_nr,stationid,location,state
-1,41013,Frying Pan Shoals, NC
-2,44088,Virginia Beach Offshore, VA
-3,44009,DELAWARE BAY 26 NM Southeast of Cape May, NJ
-4,44008,NANTUCKET 54 NM Southeast of Nantucket, MA
-5,41001,EAST HATTERAS - 150 NM East of Cape Hatteras, NC
-6,44100,Duck FRF 26m, NC
-7,44095,Oregon Inlet, NC
-8,41004,EDISTO - 41 NM Southeast of Charleston, SC
-9,41008,GRAYS REEF - 40 NM Southeast of Savannah, GA
-10,41010,CANAVERAL EAST - 120NM East of Cape Canaveral, FL
-11,41009,CANAVERAL 20 NM East of Cape Canaveral, FL
-12,42036,WEST TAMPA - 112 NM WNW of Tampa, FL
-13,42409,GULF OF MEXICO - 247 NM South of New Orleans, LA
-14,42020,CORPUS CHRISTI TX - 60NM SSE of Corpus Christi, TX
-15,44402,SOUTHEAST BLOCK CANYON - 130 NM SE of Fire Island, NY
-16,44150,La Have Bank, CAN
-17,44037,Buoy M01 - Jordan Basin, ME
-18,44011,GEORGES BANK 170 NM East of Hyannis, MA
+serial_nr,stationid,location,state,lon,lat,Node
+# List of HSOFS grid buoy locations; legacy comment line,,,,,,
+1,41013,Frying Pan Shoals,NC,-77.764,33.441,1531804
+2,44088,Virginia Beach Offshore,VA,-74.841,36.611,1625632
+3,44009,DELAWARE BAY 26 NM Southeast of Cape May,NJ,-74.692,38.46,1601925
+4,44008,NANTUCKET 54 NM Southeast of Nantucket,MA,-69.25,40.496,1520876
+5,41001,EAST HATTERAS - 150 NM East of Cape Hatteras,NC,-72.248,34.714,1597185
+6,44100,Duck FRF 26m,NC,-75.593,36.258,1617241
+7,44095,Oregon Inlet,NC,-75.33,35.75,1606056
+8,41004,EDISTO - 41 NM Southeast of Charleston,SC,-79.099,32.502,1507084
+9,41008,GRAYS REEF - 40 NM Southeast of Savannah,GA,-80.866,31.4,1397590
+10,41010,CANAVERAL EAST - 120NM East of Cape Canaveral,FL,-78.485,28.878,1521785
+11,41009,CANAVERAL 20 NM East of Cape Canaveral,FL,-80.185,28.508,1427971
+12,42036,WEST TAMPA - 112 NM WNW of Tampa,FL,-84.508,28.501,656733
+13,42409,GULF OF MEXICO - 247 NM South of New Orleans,LA,-89.291,25.901,682138
+14,42020,CORPUS CHRISTI TX - 60NM SSE of Corpus Christi,TX,-96.693,26.968,596355
+15,44402,SOUTHEAST BLOCK CANYON - 130 NM SE of Fire Island,NY,-70.635,39.288,1566647
+16,44150,La Have Bank,CAN,-64.02,42.5,1484282
+17,44037,Buoy M01 - Jordan Basin,ME,-67.876,43.497,1418685
+18,44011,GEORGES BANK 170 NM East of Hyannis,MA,-66.562,41.093,1509035
