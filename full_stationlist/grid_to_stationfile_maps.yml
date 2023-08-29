@@ -63,7 +63,7 @@ GRIDMAP: &gridmap
     NOAA_STATIONS: "./AST_gridstations/full_stationlist/supporting_data/wnat_53k_v1.0.csv"
  LA_LIGHT_V01A:
     NOAA_STATIONS: "./AST_gridstations/full_stationlist/supporting_data/la_light_v01a.csv"
-GA_20232_VOB1_CHK:
+ GA_2023_V01B_CHK:
     NOAA_STATIONS: "./AST_gridstations/full_stationlist/supporting_data/EGOMv20b_stations_V1.csv"
     NDBC_BUOYS: "./AST_gridstations/full_stationlist/supporting_data/ndbc_buoys.csv"
 
