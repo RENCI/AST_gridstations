@@ -14,6 +14,7 @@ SOURCEMAP: &sourcemap
       SOURCES:
           WATR: "river_water_level"
           #FVOL: "river_flow_volume"
+          WSEL: "river_stream_elevation"
           PRES: "air_pressure"
 
   CONTRAILS_COASTAL:
