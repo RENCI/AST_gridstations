@@ -1,4 +1,5 @@
 serial_nr,stationid,lon,lat,site,stationname
+# List of interesting USGS coastal gages in the NE
 1,01059555,-69.7925,43.9247222,USGS,"Back River Crk at Pleasant Cove nr Woolwich, Maine"
 2,414507070091400,-70.15388889,41.75194444,USGS,"SESUIT HARBOR TIDE GAGE AT DENNIS, MA"
 3,411838071513000,-71.8583333,41.31055556,USGS,"WATCH HILL COVE TIDE GAGE WESTERLY, RI"
