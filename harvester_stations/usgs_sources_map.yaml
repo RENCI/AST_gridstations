@@ -1,0 +1,17 @@
+SOURCEMAP: &sourcemap
+
+  USGS_RIVERS:
+      STATION_FILE: "./AST_gridstations/harvester_stations/supporting_data/USGS_river_stations.csv"
+      VARIABLE: "zeta"
+      SOURCES:
+          WATR: "water_level"
+
+  USGS:
+      STATION_FILE: "./AST_gridstations/harvester_stations/supporting_data/USGS_coastal_stations.csv"
+      VARIABLE: "zeta"
+      SOURCES:
+          WATR: "water_level"
+
+DESCRIPTION: &description
+   DESCRIBE: 'A list of sources and data products to process using run_harvester'
+
