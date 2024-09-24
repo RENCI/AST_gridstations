@@ -64,7 +64,10 @@ GRIDMAP: &gridmap
  EGOMV20B:
     NOAA_STATIONS: "./AST_gridstations/full_stationlist/supporting_data/EGOMv20b_stations_V1.csv"
     NDBC_BUOYS: "./AST_gridstations/full_stationlist/supporting_data/ndbc_buoys.csv"
- NGOM-RT_V19B:
+ EGOM_V20B:
+    NOAA_STATIONS: "./AST_gridstations/full_stationlist/supporting_data/EGOMv20b_stations_V1.csv"
+    NDBC_BUOYS: "./AST_gridstations/full_stationlist/supporting_data/ndbc_buoys.csv"
+ NGOM_RT_V19B:
     NOAA_STATIONS: "./AST_gridstations/full_stationlist/supporting_data/EGOMv20b_stations_V1.csv"
     NDBC_BUOYS: "./AST_gridstations/full_stationlist/supporting_data/ndbc_buoys.csv"
  WNAT_53K_V1.0:
