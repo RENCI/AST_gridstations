@@ -57,19 +57,19 @@ GRIDMAP: &gridmap
     NOAA_STATIONS: "./AST_gridstations/full_stationlist/supporting_data/SABv20a_stations_V1.0.csv"
  EGOM-RT_V20B:
     NOAA_STATIONS: "./AST_gridstations/full_stationlist/supporting_data/EGOMv20b_stations_V1.csv"
-    NDBC_BUOYS: "./AST_gridstations/full_stationlist/supporting_data/ndbc_buoys.csv"
+    NDBC_BUOYS: "./AST_gridstations/full_stationlist/supporting_data/egomv20b_ndbc_buoys.csv"
  EGOM-RT_V20B_CHK:
     NOAA_STATIONS: "./AST_gridstations/full_stationlist/supporting_data/EGOMv20b_stations_V1.csv"
-    NDBC_BUOYS: "./AST_gridstations/full_stationlist/supporting_data/ndbc_buoys.csv"
+    NDBC_BUOYS: "./AST_gridstations/full_stationlist/supporting_data/egomv20b_ndbc_buoys.csv"
  EGOMV20B:
     NOAA_STATIONS: "./AST_gridstations/full_stationlist/supporting_data/EGOMv20b_stations_V1.csv"
-    NDBC_BUOYS: "./AST_gridstations/full_stationlist/supporting_data/ndbc_buoys.csv"
+    NDBC_BUOYS: "./AST_gridstations/full_stationlist/supporting_data/egomv20b_ndbc_buoys.csv" 
  EGOM_V20B:
     NOAA_STATIONS: "./AST_gridstations/full_stationlist/supporting_data/EGOMv20b_stations_V1.csv"
-    NDBC_BUOYS: "./AST_gridstations/full_stationlist/supporting_data/ndbc_buoys.csv"
+    NDBC_BUOYS: "./AST_gridstations/full_stationlist/supporting_data/egomv20b_ndbc_buoys.csv"
  NGOM_RT_V19B:
     NOAA_STATIONS: "./AST_gridstations/full_stationlist/supporting_data/EGOMv20b_stations_V1.csv"
-    NDBC_BUOYS: "./AST_gridstations/full_stationlist/supporting_data/ndbc_buoys.csv"
+    NDBC_BUOYS: "./AST_gridstations/full_stationlist/supporting_data/ngomv19b_ndbc_buoys.csv"
  WNAT_53K_V1.0:
     NOAA_STATIONS: "./AST_gridstations/full_stationlist/supporting_data/wnat_53k_v1.0.csv"
  LA_LIGHT_V01A:
