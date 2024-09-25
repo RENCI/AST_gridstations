@@ -76,7 +76,7 @@ GRIDMAP: &gridmap
     NOAA_STATIONS: "./AST_gridstations/full_stationlist/supporting_data/la_light_v01a.csv"
  GA_2023_V01B_CHK:
     NOAA_STATIONS: "./AST_gridstations/full_stationlist/supporting_data/EGOMv20b_stations_V1.csv"
-    NDBC_BUOYS: "./AST_gridstations/full_stationlist/supporting_data/ndbc_buoys.csv"
+    NDBC_BUOYS: "./AST_gridstations/full_stationlist/supporting_data/GA_2023_v01b_chk_ndbc_buoys.csv" 
 
 DESCRIPTION: &description
    DESCRIBE: 'A configuration file used by the several application codes. Maps grid name to a specific station list and (opt) land/water control points'
