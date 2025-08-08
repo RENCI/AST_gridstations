@@ -1,0 +1,11 @@
+SOURCEMAP: &sourcemap
+
+  NDBC_HISTORIC:
+      STATION_FILE: "./ndbc_historic_buoys.csv"
+      VARIABLE: "swan_HS"
+      SOURCES:
+          WATR: "wave_height"
+
+DESCRIPTION: &description
+   DESCRIBE: 'A list of sources and data products to process using run_harvester'
+

@@ -1,0 +1,123 @@
+This subsection is an addition to the AST_gridstations repo. This supports the ability to access data in a more parallel manner. Eg, 
+running indeopendantly jobs based on products and stations lists. This is intended for execution by Pegasus. The launcher approach is to 
+git clone this AST_gridstations data set and then let pegasus stage specific yaml data at required.
+
+1) SOURCES
+The current SOURCES supported by the AST underying code are:
+NOAA_STATIONS, NDBC_BUOYS, NDBC_HISTORIC, USGS, USGS_RIVERS, CONTRAILS_COASTAL, CONTRAILS_RIVERS
+ 
+The NDBC_HISTORIC data is a special case. NDBC only provides realtime data for the last 45 days. However, that does not mean
+the data get converted to NDBC_HISTORIC after that. To query an NDBC_HISTORIC data set, you cannot specify the current year.
+So it is possible to not have access to select data for many months depending on the date.
+
+2) Station lists.
+For each SOURCE, a pre established station list is provided. The User may change that atwill.
+The station lists are expectex to be in the same directory as the yaml files
+
+The defauilt lists are:
+
+NOAA_STATIONS: 
+    STATION_FILE: "./AST_gridstations/harvester_stations/supporting_data/noaa_stations.csv"
+NDBC_BUOYS:
+    STATION_FILE: "./AST_gridstations/observations_data/supporting_data/ndbc_buoys.csv"
+NDBC_HISTORIC:
+    STATION_FILE: "./AST_gridstations/observations_data/supporting_data/ndbc_historic_buoys.csv"
+USGS:
+    STATION_FILE: "./AST_gridstations/observations_data/supporting_data/USGS_coastal_stations.csv"
+USGS_RIVERS:
+    STATION_FILE: "./AST_gridstations/observations_data/supporting_data/USGS_river_stations.csv"
+CONTRAILS_COASTAL:
+    STATION_FILE: "./AST_gridstations/harvester_stations/supporting_data/contrails_stations_coastal.csv"
+CONTRAILS_RIVERS:
+    STATION_FILE: "./AST_gridstations/harvester_stations/supporting_data/contrails_stations_rivers.csv"
+
+Generally, these are simply lists of station ids. However, the NDBC Buoy data are a little different. The NDBC server will return the
+lon/lat values for the specified statiobn but NOT the station name. We generally want the station name for presentation and so we 
+manually add the station name to the NDBC and NDBC_HISTORIC input files as an extra column. Note also, one could add a station name column
+to any of the input station csv files. This is often convenient to the user. The AST software will ignore those names except for NDBC data.
+
+3) Data Products. Several data products are available for stations. The NAMES of the products are those defined by the AST software.
+AST manages conversion to source-specific names for the data.. 
+A typical set of possible products for a given source are listed below.
+
+All products are returned in metric units.
+The VARIABLE name is an artifact and is not needed for observation fetching
+
+NOAA_STATIONS: 
+    STATION_FILE: "./AST_gridstations/harvester_stations/supporting_data/noaa_stations.csv"
+    VARIABLE: "zeta"
+    SOURCES:
+        WATR: "water_level"
+        PRED: "predictions"
+        PRES: "air_pressure"
+        WSPD: "wind_speed"
+
+CONTRAILS_RIVERS:
+    STATION_FILE: "./AST_gridstations/harvester_stations/supporting_data/contrails_stations_rivers.csv"
+    VARIABLE: "zeta"
+    SOURCES:
+        WATR: "river_water_level"
+        FVOL: "river_flow_volume"
+        WSEL: "river_stream_elevation"
+        PRES: "air_pressure"
+
+CONTRAILS_COASTAL:
+    STATION_FILE: "./AST_gridstations/harvester_stations/supporting_data/contrails_stations_coastal.csv"
+    VARIABLE: "zeta"
+    SOURCES:
+        WATR: "coastal_water_level"
+        PRES: "air_pressure"
+
+NDBC_BUOYS:
+    STATION_FILE: "./AST_gridstations/observations_data/supporting_data/ndbc_buoys.csv"
+    VARIABLE: "swan_HS"
+    SOURCES:
+        WATR: "wave_height"
+        PRES: "air_pressure"
+        WSPD: "wind_speed"
+
+NDBC_HISTORIC:
+    STATION_FILE: "./AST_gridstations/observations_data/supporting_data/ndbc_historic_buoys.csv"
+    VARIABLE: "swan_HS"
+    SOURCES:
+        WATR: "wave_height"
+        PRES: "air_pressure"
+        WSPD: "wind_speed"
+
+USGS_RIVERS:
+    STATION_FILE: "./AST_gridstations/observations_data/supporting_data/USGS_river_stations.csv"
+    VARIABLE: "zeta"
+    SOURCES:
+        WATR: "water_level"
+        FVOL: "river_flow_volume"
+        PRES: "air_pressure"
+
+USGS:
+    STATION_FILE: "./AST_gridstations/observations_data/supporting_data/USGS_coastal_stations.csv"
+    VARIABLE: "zeta"
+    SOURCES:
+        WATR: "water_level"
+        PRES: "air_pressure"
+
+
+
+
+
+
+
+
+
+
+
+
+
+Generally, a user may supply any set of products to any station and AST will accomodate. However, for product that do not exist at that station, 
+the resulting data set will simply be empty. Also to maximize parallelism, we only specify a single product per inpput file.
+
+
+
+
+
+The "harvester_stations" data are simply the current list of NOAA,NDBC,CONTRAILS station ids that (can) be used by the run_harvester
+fetching process. The run_hervester will read the sources_map.yaml file and attempt to process every source/product that is listed. Individual
+files with unique nomenclature will be created. These are resulting files are then expected to be ingested by the Harvester DB system
