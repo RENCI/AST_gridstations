@@ -5,8 +5,8 @@ SOURCEMAP: &sourcemap
       SOURCES:
           WATR: "water_level"
           PRED: "predictions"
-          PRES: "air_pressure"
-          WSPD: "wind_speed"
+          #PRES: "air_pressure"
+          #WSPD: "wind_speed"
 
   CONTRAILS_RIVERS:
       STATION_FILE: "./AST_gridstations/harvester_stations/supporting_data/contrails_stations_rivers.csv"
@@ -15,22 +15,22 @@ SOURCEMAP: &sourcemap
           WATR: "river_water_level"
           #FVOL: "river_flow_volume"
           WSEL: "river_stream_elevation"
-          PRES: "air_pressure"
+          # PRES: "air_pressure"
 
   CONTRAILS_COASTAL:
       STATION_FILE: "./AST_gridstations/harvester_stations/supporting_data/contrails_stations_coastal.csv"
       VARIABLE: "zeta"
       SOURCES:
           WATR: "coastal_water_level"
-          PRES: "air_pressure"
+          #PRES: "air_pressure"
 
   NDBC_BUOYS:
       STATION_FILE: "./AST_gridstations/harvester_stations/supporting_data/ndbc_buoys.csv"
       VARIABLE: "swan_HS"
       SOURCES:
           WATR: "wave_height"
-          PRES: "air_pressure"
-          WSPD: "wind_speed"
+          #PRES: "air_pressure"
+          #WSPD: "wind_speed"
 
 DESCRIPTION: &description
    DESCRIBE: 'A list of sources and data products to process using run_harvester'
