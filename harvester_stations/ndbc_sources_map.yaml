@@ -1,0 +1,13 @@
+SOURCEMAP: &sourcemap
+
+  NDBC_BUOYS:
+      STATION_FILE: "./AST_gridstations/harvester_stations/supporting_data/ndbc_buoys.csv"
+      VARIABLE: "swan_HS"
+      SOURCES:
+          WATR: "wave_height"
+          #PRES: "air_pressure"
+          #WSPD: "wind_speed"
+
+DESCRIPTION: &description
+   DESCRIBE: 'A list of sources and data products to process using run_harvester'
+
