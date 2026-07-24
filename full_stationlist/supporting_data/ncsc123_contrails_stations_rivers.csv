@@ -1,25 +1,35 @@
-serial_nr,stationid,Lat,Lon,Name
-#Contrails RIVER stations
-0,WNRN7,35.9939028,-76.9426028,Cashie R in Windsor at S. King St
-1,30032,35.0583840,-78.8845000,Cross Creek at Hillsboro St. in Fayetteville
-2,STON7,35.9688000,-77.8499640,Stony Cr. at Winstead Ave. Rocky Mount
-3,30009,35.6879270,-77.9479020,Contentnea Cr @ US301
-4,30033,35.3118000,-78.6457000,Black River at Antioch Church Rd
-5,30050,36.4197851,-77.6331588,Chockoyette Cr. at I-95
-6,STYN7,35.9781910,-77.9724820,Stony Creek at W. Washington St in Nashville
-7,30016,35.6004500,-77.3682400,Green Mill Run at E. 14th St. at Greenville
-8,30062,36.4101362,-77.4978874,Occoneechee Creek at NC158
-9,30003,33.9550600,-78.5779400,Cawcaw Swamp @ No. 5 School Rd NW
-10,30060,34.9187800,-77.6166874,New River at NC 24 nr Richlands
-11,HSWN7,35.7197900,-77.9201200,Hominy Swamp at Mercer St in Wilson
-12,30061,34.9992300,-78.6460057,South River at NC 24 at Autryville
-13,WSNN7,35.7422000,-77.9519000,Hominy Swamp at Forest Hills Rd nr Wilson
-14,RMBN7,35.9261000,-77.8306000,Tar River at US 301 Bypass at Rocky Mount
-15,30010,35.6067700,-77.5747200,Little Contentnea Creek @ NC 121
-16,30011,35.9476220,-77.4755570,Deep Ck @ Dickens Rd
-17,WHSN7,34.3170320,-78.7060370,Soules Swamp at S. Madison St in Whiteville
-18,30006,35.0738300,-78.9767460,Beaver Cr. @ SR 1404
-19,02083500,,,
-20,GRMN7,,,
-21,02092500,,,
-22,02092554,,,
+,stationid
+# Example of a contrails river list
+0,30033
+1,WNRN7
+2,30003
+3,30050
+4,30009
+5,GTNN7
+6,30032
+7,30011
+8,30016
+9,WSNN7
+10,HSWN7
+11,30010
+12,30031
+13,30060
+14,30062
+15,WHSN7
+16,30061
+17,30017
+18,STYN7
+19,STON7
+20,RMBN7
+21,TRTN7
+22,30007
+23,30006
+24,02083500
+25,02092500
+26,02092554
+27,30129
+28,CWLN7
+29,02083893
+30,NWPN7
+31,30679
+32,2233

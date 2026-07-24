@@ -58,7 +58,7 @@ GRIDMAP: &gridmap
     CONTRAILS_RIVERS: "./AST_gridstations/full_stationlist/supporting_data/ncsc123_contrails_stations_rivers.csv"
     CONTRAILS_COASTAL: "./AST_gridstations/full_stationlist/supporting_data/ncsc123_contrails_stations_coastal.csv"
     NDBC_BUOYS: "./AST_gridstations/full_stationlist/supporting_data/NCSCv20_ndbc_buoys.csv"
-NCSCV3:
+ NCSCV3:
     NOAA_STATIONS: "./AST_gridstations/full_stationlist/supporting_data/NCSC123_stations_V2.0.csv"
     CONTRAILS_RIVERS: "./AST_gridstations/full_stationlist/supporting_data/ncsc123_contrails_stations_rivers.csv"
     CONTRAILS_COASTAL: "./AST_gridstations/full_stationlist/supporting_data/ncsc123_contrails_stations_coastal.csv"
